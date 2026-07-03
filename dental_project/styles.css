@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'General Sans';
     src: url('fonts/GeneralSans-Extralight.woff') format('woff');
@@ -167,7 +168,7 @@ h1{
     font-size: clamp(2rem, 5vw, 3rem);
     margin-bottom:1.25rem;
 }
-
+/* Text description from hero section*/ 
 .hero-text p {
     color:#4A5568;
     margin: 0;
@@ -181,12 +182,27 @@ h1{
     justify-content:center;
 }
 .hero-image img {
-      width: 100%;
+    width: 100%;
     max-width: 480px;
     height: auto;
     display: block;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.hero-button button{
+    margin-top: 1rem;
+    display: grid;
+    font-size: 1rem;
+    justify-content: center;
+    border:1px solid cornflowerblue;
+    color:#ffffff;
+    padding:0.4rem;
+    background-color:#0F2D3A;
+    border-radius: 0.5rem;
+}
+.location{
+    margin-top:0.5rem;
 }
 /* About us section */
 .about-us-container {
@@ -425,7 +441,9 @@ h1{
         max-width: 100%;
         margin: 0 auto;
     }
-
+    .hero-button button{
+        
+    }
     .hero-image img {
         width: 100%;
         max-width: 300px;
