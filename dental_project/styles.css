@@ -442,7 +442,9 @@ h1{
         margin: 0 auto;
     }
     .hero-button button{
-        
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
     }
     .hero-image img {
         width: 100%;
@@ -529,6 +531,13 @@ h1{
 
     .hero-image img {
         max-width: 220px;
+    }
+
+    .hero-button button{
+        padding: 0.60rem 0.8rem;
+        font-size: 1.15rem;
+        cursor: pointer;
+        width: 100%;
     }
 }
 
