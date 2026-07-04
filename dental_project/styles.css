@@ -111,8 +111,13 @@ h1{
     color:#F8FAFC;
 }
 
-
+.navbar-section {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .navbar{
+   
     min-height: 70px ;
     display:flex;
     justify-content: space-between;
@@ -128,12 +133,22 @@ h1{
 }
 
 
-.nav-link{
-    color:#F8FAFC;
-    transition: 0.7s ease;
+.nav-link {
+  color: #F8FAFC;
+  display: inline-block;
+  cursor: pointer;
+
+  position: relative;
+  transition: all 0.2s ease;
 }
-.nav-link:hover{
-    color:#2f5174;
+
+.nav-link:hover {
+  color: #2f5174;
+  transform: translateY(-1px);
+}
+
+.nav-link:active {
+  transform: translateY(1px) scale(0.97);
 }
 
 .hamburguer{
@@ -190,7 +205,16 @@ h1{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
+.hero-button button:hover{
+    background-color:#0f2d3ae7 ;
+}
+.hero-button button:active{
+ transform: scale(0.97);
+  transform: translateY(2px) scale(0.98);
+}
 .hero-button button{
+    transition: all 0.15s ease;
+    cursor: pointer;
     margin-top: 1rem;
     display: grid;
     font-size: 1rem;
@@ -233,6 +257,16 @@ h1{
     border-radius: 10px;
     background-color: #f6f6f6ba;
     text-align: left;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: #ece4e4ba;
+}
+
+.item-title{
+    ;
 }
 
 .item-title {
