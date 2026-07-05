@@ -450,7 +450,8 @@ h1{
   height: 100vh;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   max-width: 100%;
   padding: 0;
   margin: 0;
@@ -466,14 +467,15 @@ h1{
 }
 
 .pen-title {
-  position: absolute;
-  top: 4rem;
-  left: 4rem;
+  position: relative;
   z-index: 10;
   font-size: 4rem;
   text-align: left;
   color: #0F2D3A;
   font-weight: 700;
+  padding: 0 4rem;
+  margin: 0;
+  flex-shrink: 0;
 }
 .card {
   flex: 1 1 0;
