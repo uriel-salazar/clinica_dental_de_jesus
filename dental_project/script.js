@@ -13,6 +13,13 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener(
     }
 ))
 
+// Toggle description text on service card click
+document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", () => {
+        card.classList.toggle("active");
+    });
+});
+
 // Horizontal scroll on vertical scroll for services section
 function initHorizontalScroll() {
   const section = document.querySelector('.services-section');
