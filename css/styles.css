@@ -192,7 +192,7 @@ h1{
 }
 
 .nav-link:hover {
-  color: #2f5174;
+  color: #27b0bc;
   transform: translateY(-1px);
 }
 
@@ -750,7 +750,7 @@ h1{
 }
 
 .info-content p {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
     color: #555;
     line-height: 1.5;
     margin: 0;
