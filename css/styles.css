@@ -214,6 +214,42 @@ h1{
     background-color: #F8FAFC;
 }
 
+/* Language toggle */
+.lang-toggle{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+}
+
+.lang-btn{
+    border: none;
+    background: transparent;
+    color: rgba(248, 250, 252, 0.7);
+    font-family: 'General Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    line-height: 1;
+    padding: 0.25rem 0.25rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.lang-btn + .lang-btn {
+    border-left: 1px solid rgba(248, 250, 252, 0.25);
+    padding-left: 0.5rem;
+}
+
+.lang-btn:hover {
+    color: #fff;
+}
+
+.lang-btn.active {
+    color: #27b0bc;
+    font-weight: 700;
+}
+
 /* Hero Image section  */
 .hero-section {
     min-height: calc(100vh - 80px);
