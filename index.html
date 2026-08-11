@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica Dental de Jesús en Guadalajara: limpieza dental, extracciones, prótesis, periodoncia y más. Agenda tu cita.">
+    <title data-i18n="title">Clínica Dental de Jesús</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="js/translations.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="navbar-section">
+    <nav class="navbar">
+            <a href="#inicio" class="nav-icon"> <img src="images/logo_consultoriooo.webp" alt="Logo"> <span class="nav-title" data-i18n="nav.title">Clínica Dental de Jesús</span>  </a>
+
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="#nosotros" class="nav-link" data-i18n="nav.about">Nosotros</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#services-section" class="nav-link" data-i18n="nav.services">Servicios</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#contacto" class="nav-link" data-i18n="nav.book">Agendar Cita</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a>
+            </li>
+        </ul>
+        <div class="lang-toggle" role="group" aria-label="Idioma / Language">
+            <button type="button" class="lang-btn" data-lang="es" aria-pressed="true">ES</button>
+            <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<section id="inicio">
+    <div class="hero-section">
+        <div class="hero-text">
+            <h1 data-i18n="hero.title"> Una sonrisa vale más que mil palabras.</h1>
+            <p data-i18n-html="hero.text">En <b>Clínica Dental de Jesús</b>, contamos con atención dental con un trato cercano,
+                un diagnóstico preciso y tratamientos personalizados para ayudarte a mantener
+                una sonrisa sana y llena de confianza.</p>
+            <br>
+            <p data-i18n-html="hero.location"><b>Ubicados en Garibaldi 722, Local 15, Centro, Guadalajara, Jalisco, Mexico.</b></p>
+            <div class="hero-button"> 
+                <a href="#contacto" class="hero-btn-link"><b data-i18n="hero.cta">¡Agenda tu cita!</b></a>
+            </div>
+        
+        </div>
+        <div class="hero-image">
+            <img src="images/consultorio.jpeg" alt="Consultorio Dental" data-i18n-alt="hero.image.alt" fetchpriority="high">
+        </div>
+    
+    </div>
+</section>  
+
+<section>
+    <div id="whatsapp-button" style="position: fixed; bottom: 20px; left: 20px; z-index: 1000;">
+  <a href="https://wa.me/3330183780?text=Haz%20tu%20cita" target="_blank" title="Chat with us on WhatsApp" data-i18n-title="whatsapp.title" data-i18n-href="wa.general" style="display:block; width:45px; height:45px; border-radius:50%; box-shadow:0 4px 8px rgba(0,0,0,0.3); transition:transform 0.3s ease; background:#25D366; display:flex; align-items:center; justify-content:center" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+</section>
+  <!-- WhatsApp Button Ends -->
+
+<section id="nosotros" class="about-us">
+    <div class="about-us-container">
+        <h2 class="reveal" data-i18n="about.title">¿Por qué elegirnos?</h2>
+        <ul class="about-grid">
+            <li class="item reveal">
+                <strong class="item-title" data-i18n="about.experience.title">Más de 10 años de experiencia</strong>
+                <p data-i18n="about.experience.desc">Más de 10 años ofreciendo atención dental profesional y confiable.</p>
+            </li>
+            <li class="item reveal">
+                <strong class="item-title" data-i18n="about.prices.title">Precios Accesibles</strong>
+                <p data-i18n="about.prices.desc">Cuidado dental profesional con costos equilibrados y accesibles.</p>
+            </li>
+            <li class="item reveal">
+                <strong class="item-title" data-i18n="about.biosafety.title">Protocolos de Bioseguridad</strong>
+                 <p data-i18n="about.biosafety.desc">Cuidamos tu salud siguiendo estrictas medidas de higiene y esterilización en cada consulta.</p>
+            </li>
+            <li class="item reveal">
+                <strong class="item-title" data-i18n="about.comprehensive.title">Atención Integral</strong>
+                <p data-i18n="about.comprehensive.desc">Diagnóstico, prevención y tratamiento con un enfoque personalizado y profesional.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section>
+<div class="team-div">
+    <div class="team-div-container">
+        
+        <h2 class="reveal" data-i18n="team.title"> Nuestros integrantes</h2>
+        <p data-i18n-html="team.text">Equipo de dos profesionales dedicadas al cuidado de tu sonrisa.
+          <br>
+          <b>Se requiere cita previa para todos nuestros servicios</b>
+        </p>
+    <div class="cards-row">
+        <!-- First image -->
+        <div class="card-member reveal">
+            <img class="member-team" src="images/portrait-young-female-dentist-mask-dentistry-concept-dental-treatment.webp" alt="Dra. Eduwiges Granda Velasco" data-i18n-alt="team.alt1" loading="lazy">
+            <section>
+                <h2 data-i18n="team.dra1.name">Dra. Eduwiges Granda Velasco</h2>
+                <p data-i18n="team.dra1.desc">Odontóloga dentista con más de 10 años de experiencia.
+            </p>
+            <a href="https://wa.me/3330183780?text=Haz%20tu%20cita%20con%20Dra.%20Eduwiges%20Granda%20Velasco" data-i18n-href="team.wa1" target="_blank" class="btn-whatsapp-card" data-i18n="team.book">Agendar Cita</a>
+        </section>
+    </div>
+        <!-- Second image -->
+        <div class="card-member reveal">
+            <img class="member-team" src="images/portrait-young-female-dentist-mask-dentistry-concept-dental-treatment.webp" alt="Dra. Marisol Escareño Núñez" data-i18n-alt="team.alt2" loading="lazy">
+            <section>
+                <h2 data-i18n="team.dra2.name">Dra. Marisol Escareño Núñez</h2>
+                <p data-i18n="team.dra2.desc">Odontóloga dentista comprometida con tu salud bucal.
+            </p>
+            <a href="https://wa.me/3330183780?text=Haz%20tu%20cita%20con%20Dra.%20Marisol%20Escareño%20Núñez" data-i18n-href="team.wa2" target="_blank" class="btn-whatsapp-card" data-i18n="team.book">Agendar Cita</a>
+        </section>
+    </div>
+    </div>
+    </div>
+</div>
+</section>
+
+<section class="services-section" id="services-section">
+    <div class="wrapper">
+      <h1 class="pen-title reveal" data-i18n="services.title">
+        Nuestros servicios
+      </h1>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.cleaning.desc">Eliminación de placa y sarro para mantener una sonrisa saludable.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.cleaning.title">Limpieza Dental</h2>
+
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/dentist-examining-female-patient-with-tools.webp"
+              alt="Limpieza dental" data-i18n-alt="services.cleaning.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/dentist-examining-female-patient-with-tools.webp"
+              alt="Limpieza dental" data-i18n-alt="services.cleaning.alt" loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.extractions.desc">Extracción segura de piezas dentales dañadas o con problemas.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.extractions.title">Extracciones</h2>
+
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/extraccion_dental.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/extracciones-dentales-e1723115228758.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.amalgams.desc">Restauración de caries con amalgamas de alta durabilidad.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.amalgams.title">Amalgamas</h2>
+
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/amalgamas.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/amalgamas.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.prosthetics.desc">Prótesis fijas y removibles para recuperar la funcionalidad dental.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.prosthetics.title">Prótesis Dentales</h2>
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/shaken-steel-human-dentistry-retro.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/shaken-steel-human-dentistry-retro.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.periodontics.desc">Tratamiento de encías para prevenir y controlar enfermedades periodontales.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.periodontics.title">Periodoncia</h2>
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/periodonciaa.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/periodonciaa.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.evaluation.desc">Evaluación completa para determinar el mejor plan de tratamiento.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.evaluation.title">Valoración</h2>
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/dentist-analyzes-x-ray-photo.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/dentist-analyzes-x-ray-photo.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.family.desc">Atención dental completa para toda la familia en un solo lugar.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.family.title">Odontología Familiar</h2>
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/odontologia-familiar.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/odontologia-familiar.webp"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-content">
+            <div class="top">
+              <p data-i18n="services.resins.desc">Restauración estética con resinas del color de tus dientes.</p>
+            </div>
+            <div class="bottom">
+              <h2 data-i18n="services.resins.title">Resinas Dentales</h2>
+      
+            </div>
+          </div>
+          <div class="card-bg">
+            <img
+              class="bg-img"
+              src="images/resinas.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+          <div class="shadow">
+            <img
+              class="shadow-img"
+              src="images/resinas.jpg"
+              alt="Servicio dental" data-i18n-alt="services.alt" loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="faq-section">
+  <div class="faq-container">
+    <h2 class="reveal" data-i18n="faq.title">Preguntas Frecuentes</h2>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <div class="faq-question">
+          <span data-i18n="faq.q1">¿Cómo puedo agendar una cita?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n="faq.a1">Puedes agendar tu cita por teléfono o por WhatsApp con la dentista de tu preferencia.</p>
+          <h4 data-i18n="faq.dra1">Dra. Eduwiges</h4>
+          <p>52 33 1234 5678</p>
+          <h4 data-i18n="faq.dra2">Dra. Marisol</h4>
+          <p>52 33 1234 5678</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question">
+          <span data-i18n="faq.q2">¿Puedo ser atendido sin cita?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n-html="faq.a2">No, todas las consultas requieren <b>cita previa.</b> Puedes agendar la tuya por teléfono o WhatsApp.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question">
+          <span data-i18n="faq.q3">¿Qué servicios de odontología ofrecen?</span>
+          <span class="faq-icon">+</span>
+        </div>
+
+        <div class="faq-answer">
+          <p data-i18n="faq.a3">Ofrecemos limpieza dental, aplicación de coronas, amalgamas, prótesis dentales, periodoncia, valoraciones, odontología familiar y resinas dentales. Todos nuestros servicios son realizados por profesionales certificados.</p>
+        </div>
+      </div>
+      <div class="faq-item reveal">
+        <div class="faq-question">
+          <span data-i18n="faq.q4">¿Atienden a niños?</span>
+          <span class="faq-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p data-i18n="faq.a4"> Sí. Brindamos atención dental a niños y adultos en un ambiente cómodo, seguro y profesional.</p>
+        </div>
+      </div>
+    </div>
+    <div class="faq-cta">
+      <p data-i18n="faq.cta">¿Tienes más preguntas?</p>
+      <a href="#contacto" class="faq-btn" data-i18n="faq.btn">Contáctanos</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="contacto">
+  <div class="container-location">
+    <div class="location-info">
+      <div class="location-title">
+        <h2 class="reveal" data-i18n="contact.title">Contacto y Ubicación</h2>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">📍</div>
+        <div class="info-content">
+          <h3 data-i18n="contact.address.title">Dirección</h3>
+          <p data-i18n-html="contact.address.text">Calle Garibaldi 722, <b>Local 15</b>, Zona Centro, 44100 <b>Guadalajara, Jalisco.</b></p>
+        </div>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">📞</div>
+        <div class="info-content">
+          <h3 data-i18n="contact.phone.title">Teléfono</h3>
+          <h4 data-i18n="contact.name1"> Dra Eduwiges Granda Velasco </h4>
+            <p> +52 33 1234 5678</p>
+          <h4 data-i18n="contact.name2"> Dra. Marisol Escareño Núñez </h4>
+           <p> +52 33 1234 5678</p>
+          <h4 data-i18n="contact.office">Consultorio</h4>
+            <p> +52 33 1234 5678</p>
+        </div>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">🕒</div>
+        <div class="info-content">
+          <h3 data-i18n="contact.hours.title">Horarios</h3>
+          <p data-i18n-html="contact.hours.weekdays"><b>Lunes a Viernes:</b> 10:00 am - 2:00pm</p>
+          <p data-i18n-html="contact.hours.saturday"><b>Sábados:</b> 10:00am - 2:00pm</p>
+        </div>
+      </div>
+    </div>
+    <div class="google-maps-location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.7161951910757!2d-103.35724719089083!3d20.681122180802912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1e3bf6aab3b%3A0xd9a23b72aae4bbd4!2sCL%C3%8DNICA%20DENTAL%20JESUS!5e0!3m2!1ses!2smx!4v1783291459064!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3 data-i18n="footer.title">Clínica Dental</h3>
+      <p data-i18n="footer.text">Tu salud bucal es nuestra prioridad. Brindamos atención de calidad con un equipo de profesionales comprometidos.</p>
+      
+    </div>
+    <div class="footer-links">
+      <h4 data-i18n="footer.services">Servicios</h4>
+      <ul>
+        <li><a href="#" data-i18n="footer.service.cleaning">Limpieza Dental</a></li>
+        <li><a href="#" data-i18n="footer.service.extractions">Extracciones</a></li>
+        <li><a href="#" data-i18n="footer.service.prosthetics">Prótesis Dentales</a></li>
+        <li><a href="#" data-i18n="footer.service.periodontics">Periodoncia</a></li>
+        <li><a href="#" data-i18n="footer.service.family">Odontología Familiar</a></li>
+      </ul>
+    </div>
+    <div class="footer-hours">
+      <h4 data-i18n="footer.hours">Horarios</h4>
+      <ul>
+        <li><span data-i18n="footer.hours.weekdays">Lunes a Viernes</span><span>10:00am - 2:00pm</span></li>
+        <li><span data-i18n="footer.hours.saturday">Sábados</span><span>10:00am - 2:00pm</span></li>
+        <li><span data-i18n="footer.hours.sunday">Domingos</span><span data-i18n="footer.hours.closed">Cerrado</span></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4 data-i18n="footer.contact">Contacto</h4>
+      <ul>
+        <li>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span data-i18n="footer.address">Garibaldi 722, Local 15, Centro</span>
+        </li>
+        <li>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span data-i18n="footer.phone">+52 33 1234 5678</span>
+        </li>
+        <li>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <span data-i18n="footer.email">contacto@clinicadental.com</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p data-i18n="footer.copyright">&copy; 2026 Clínica Dental de Jesús. Todos los derechos reservados.</p>
+    <p data-i18n="footer.credit"> Made with love by Uriel Salazar 🤍 </p>
+  </div>
+</footer>
+
+</body>
+</html>
