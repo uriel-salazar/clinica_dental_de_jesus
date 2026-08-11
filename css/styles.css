@@ -582,7 +582,8 @@ h1{
 
 .pen-title {
   position: absolute;
-  top: 3rem;
+  top: auto;
+  bottom: 3rem;
   left: 4rem;
   z-index: 10;
   font-size: clamp(2.2rem, 3.5vw, 3rem);
@@ -590,6 +591,11 @@ h1{
   color: #0F2D3A;
   font-weight: 700;
   margin: 0;
+  background: rgba(248, 250, 252, 0.92);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(15, 45, 58, 0.18);
+  backdrop-filter: blur(6px);
 }
 .card {
   flex: 1 1 0;
@@ -930,6 +936,11 @@ h1{
         position: relative !important;
         top: auto !important;
         left: auto !important;
+        bottom: auto !important;
+        background: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
         font-size: 2rem;
         text-align: center;
         margin: 2rem 1.5rem 2.5rem;
