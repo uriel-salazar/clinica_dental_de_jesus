@@ -115,7 +115,49 @@ li{
 }
 
 body{
-    background-color: #F8FAFC;
+    background-color: #faf8f2;
+}
+
+/* Arctic Frost - Aura */
+/* Base color is on BODY - blend modes composite against this */
+.aura-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.aura-layer-1,
+.aura-layer-2 {
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: multiply;
+    filter: blur(90px); /* 130px on desktop */
+    transform: translateZ(0);
+    will-change: transform;
+    pointer-events: none;
+}
+
+.aura-layer-1 {
+    background: linear-gradient(rgba(0,0,0,0) 0%, rgba(200,230,255,0.12) 28%, rgb(255,255,255) 18%, rgb(150,200,255) 68%, rgb(100,130,200) 100%);
+}
+
+.aura-layer-2 {
+    background: linear-gradient(rgba(0,0,0,0) 0%, rgba(200,230,255,0.22) 34%, rgb(255,255,255) 66%, rgb(150,200,255) 82%, rgb(100,130,200) 100%);
+}
+
+/* Page content sits above the fixed layers */
+.aura-content {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .aura-layer-1,
+    .aura-layer-2 {
+        filter: blur(130px);
+    }
 }
 
 h1{
@@ -1094,7 +1136,6 @@ h1{
 /* FAQ Section */
 .faq-section {
     padding: 5rem 2rem;
-    background: #f8fafc;
 }
 
 .faq-container {
